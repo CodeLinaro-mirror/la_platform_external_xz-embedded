@@ -37,7 +37,7 @@ typedef unsigned char bool;
 #include <stdlib.h>
 #include <string.h>
 
-#include "xz.h"
+#include "linux/include/linux/xz.h"
 
 #define kmalloc(size, flags) malloc(size)
 #define kfree(ptr) free(ptr)
